@@ -42,5 +42,18 @@ Very simple calculator to teach pair programming techniques
    6.2 Remove hard-coded "magic constants" from Calculator.  
    6.3 Change the main method to take input from console.
 
+# Useful stuff
+1. Compiling from shell:  
+
+        find -name "*.java" > sources.txt
+        javac -cp classpath @sources.txt
+
+2. Running JUnit tests from shell:  
+
+        java -cp .:/full/path/to/junit.jar org.junit.runner.JUnitCore YourTest
+        
+        
+
+
 # Credit
 The Calculator class is taken with gratitude from user "[gmhk](http://stackoverflow.com/users/238052/gmhk)". The original post is on [Stackoverflow](http://stackoverflow.com/questions/2734227/simple-java-calculator).
