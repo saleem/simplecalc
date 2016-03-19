@@ -50,7 +50,7 @@ Very simple calculator to teach pair programming techniques
 # Useful stuff
 1. Compiling from shell:  
 
-        find -name "*.java" > sources.txt
+        find . -name "*.java" > sources.txt
         javac -cp classpath @sources.txt
 
 2. Running JUnit tests from shell:  
